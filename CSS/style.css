@@ -1,0 +1,20 @@
+.formvalidate{
+    border:2px solid red;
+    background-color: antiquewhite;
+    height: 12em;
+    width: 12em;
+    margin:auto;
+    margin-top: 5%;
+    padding: 30px;
+}
+
+.logincontent{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.loginbutton{
+      /* background-color: aqua;*/
+    color: azure;
+    margin: auto;
+}

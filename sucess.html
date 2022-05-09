@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUCCESS</title>
+</head>
+<body>
+    
+  <nav class="navbar navbar-light bg-light">
+    <form class="container-fluid justify-content-start">
+      
+        <button onclick = "ajax();"class="btn btn-outline-success me-2" type="button" >To do list</button>
+      
+        <button onclick = "Logout()" class="btn btn-sm btn-outline-secondary" type="button">Logout</button>
+           
+    </form>
+  </nav>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <style>
+      th{ 
+        color:#fff;
+            }
+    </style>
+
+  <div class ="table-responsive ">
+  <table id ="mytable"class ="table table-striped table-hover table-bordered" >
+     <thead >
+    <tr class ="bg-info">
+      <th>Id</th>
+      <th>Tast description</th>
+      <th>Status </th>
+    </tr>
+     </thead> 
+    <tbody id ="myTable">
+
+    </tbody>
+   </table>
+  </div>
+
+
+   <script src=".\script\AJAX.js">
+    
+   </script>
+</body>
+</html>
